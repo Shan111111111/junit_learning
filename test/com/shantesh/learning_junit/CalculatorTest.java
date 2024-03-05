@@ -20,4 +20,15 @@ class CalculatorTest {
 		
 	}
 
+	@Test
+	void learningAssertTypes() {
+		assertEquals(1, 1);
+		assertEquals(1.11, 1.11);
+		assertEquals("someString", "someString");
+		assertEquals(true, true);
+		assertNull(null);
+		assertNotNull(new Calculator());
+//		fail("test has to be done");
+	}
+
 }
