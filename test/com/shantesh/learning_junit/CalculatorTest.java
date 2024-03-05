@@ -14,4 +14,10 @@ class CalculatorTest {
 		
 	}
 
+	@Test
+	void testingSameMethodButallinputCreationandcallinginOneLine() {
+		assertEquals(10, new Calculator().add(new int[] {1,2,4,3}), "assert Failed Uffff");
+		
+	}
+
 }
